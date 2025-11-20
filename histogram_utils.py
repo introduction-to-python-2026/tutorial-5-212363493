@@ -11,6 +11,7 @@ def build_histogram(data):
 
 
 def plot_histogram(histogram):
+  import matplotlib.pyplot as plt
     x_values = list(histogram.keys())
     y_values = list(histogram.values())
 
