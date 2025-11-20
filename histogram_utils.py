@@ -1,4 +1,4 @@
-  import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 def build_histogram(data):
   my_dict = {}
   for item in (data):
